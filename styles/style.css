@@ -97,7 +97,6 @@ footer {
   .nav-bar {
     align-items: flex-start;
   }
-
   nav a {
     display: block;
     margin: 8px 0;
@@ -119,13 +118,26 @@ h4 {
   max-width: 800px;
   margin: 0 auto;
 }
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
 .container {
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
+}
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.image-row img {
+  flex: 1 1 45%;
+  max-width: 48%;
+  height: auto;
+  display: block;
+}
+@media (max-width: 480px) {
+  .image-row img {
+    max-width: 100%;
+    flex: 1 1 100%;
+  }
 }
