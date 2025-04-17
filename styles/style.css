@@ -154,3 +154,58 @@ h4 {
     flex: 1 1 100%;
   }
 }
+/* sparkles js */
+
+.sparkle-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 999;
+}
+
+.sparkle {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: rgb(253, 253, 253);
+  border-radius: 500%;
+  opacity: 0.8;
+  animation: sparkle 1.5s linear infinite;
+}
+
+@keyframes sparkle {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(0, -50px) scale(0.5);
+    opacity: 0;
+  }
+}
+/* list hide info */
+.wellbeing-list li p {
+  display: none;
+}
+.wellbeing-list li:hover p {
+  display: block;
+}
+.wellbeing-list li {
+  cursor: pointer;
+  background-color: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.wellbeing-list li:hover {
+  background-color: #cdcaca;
+  transition: 0.3s;
+}
+/* td tr */
+td:nth-child(2) {
+  padding-left: 250px;
+  text-align: left;
+}
