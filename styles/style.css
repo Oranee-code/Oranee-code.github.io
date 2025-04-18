@@ -209,3 +209,15 @@ td:nth-child(2) {
   padding-left: 250px;
   text-align: left;
 }
+/* updated link style home page blog */
+
+.home-page .blog-link {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+}
+
+.home-page .blog-link:hover {
+  text-decoration: underline;
+  color: #555;
+}
