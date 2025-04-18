@@ -221,3 +221,31 @@ td:nth-child(2) {
   text-decoration: underline;
   color: #555;
 }
+
+.blog-intro {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-top: 15px;
+}
+/* photos on home page */
+.photo-container img {
+  border-radius: 5px;
+  height: auto;
+}
+
+.blog-links h3 {
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.blog-link {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+}
+
+.blog-link:hover {
+  text-decoration: underline;
+  color: #555;
+}
