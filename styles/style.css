@@ -108,6 +108,7 @@ footer {
 .image-row img {
   flex: 1 1 45%;
 }
+/* button */
 button {
   padding: 20px 30px;
   background-color: rgb(223, 109, 109);
@@ -120,6 +121,7 @@ button {
 button:hover {
   opacity: 0.8;
 }
+/* ----------- */
 
 h4 {
   color: #000000;
